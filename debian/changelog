@@ -1,0 +1,9 @@
+ros-humble-marvelmind-ros2 (1.0.2-2jammy) jammy; urgency=high
+
+  * project files added
+  * first commit
+  * Contributors: Marvelmind Robotics, smoker771
+
+ -- jetson <info@marvelmind.com>  Sat, 09 Jul 2022 21:00:00 -0000
+
+
