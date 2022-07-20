@@ -1,0 +1,12 @@
+Source: ros-humble-marvelmind-ros2
+Section: misc
+Priority: optional
+Maintainer: jetson <info@marvelmind.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-geometry-msgs, ros-humble-launch-xml, ros-humble-marvelmind-ros2-msgs, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-marvelmind-ros2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-launch-xml, ros-humble-marvelmind-ros2-msgs, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Marvelmind ROS2 package
